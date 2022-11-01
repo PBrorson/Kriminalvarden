@@ -1,0 +1,27 @@
+.selects .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 740px) {
+    .selects .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.left h1 {
+    margin-right:auto;
+    margin-left:auto;
+    display:flex; 
+    justify-content: center;
+    align-items:center; 
+
+}
+.left h3 {
+    display:flex; 
+    justify-content: center;
+    align-items:center; 
+
+}
+
